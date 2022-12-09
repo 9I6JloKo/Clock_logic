@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Clock</title>
+</head>
+<body>
+    <div class="forAngle">
+        <p>INSIDE angle between arrows:</p>
+        <p class="insideAngle">0 degrees</p>
+        <hr>
+        <p>OUTSIDE angle between arrows:</p>
+        <p class="outsideAngle">0 degrees</p>
+    </div>
+    <main>
+        <div class="div_img">
+            <div class="hours"></div>
+            <div class="img_div_main"></div>
+            <div class="minutes"></div>
+            <div class="dot"></div>
+        </div>
+        <form class="form_clock" action="changeClock" method="post">
+            <div>
+                <input name="hours" id = "hours" type="number" min="0" max="23" placeholder="HH" required>
+                <p> : </p>
+                <input name="minutes" id = "minutes" type="number" min="0" max="59" placeholder="MM" required>
+            </div>
+            <input type="submit" value="SEND">
+        </form>
+    </main>
+</body>
+</html>
