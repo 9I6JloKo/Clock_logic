@@ -32,7 +32,7 @@ main .div_img {
 .img_div_main {
     width: 760px;
     height: 100%;
-    background-image: url('/img/pngwing.com.png');    
+    background-image: url('img/pngwing.com.png');    
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
